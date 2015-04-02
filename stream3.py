@@ -81,10 +81,17 @@ def searchSent(word, scores):
 #most of the code below is copied from twitterstream.py
 #from this point until main, I only altered fetchsamples()
 
-api_key = "H5HCOyIgufzt5CdNxQsuE3P7Z"
-api_secret = "RH7HCbmWbl8ib8IRhqN5usT893lxF2mUksl96hf9NeC99NQuCJ"
-access_token_key = "428334404-aqrifPOXvqBYtLs7yZrNVXlKhS3VcMtXiBaqLqoE"
-access_token_secret = "FmrUxjLtvMb6QF8zcY3YuFw35qkUYcHlTR3JefANs7ooy"
+#you may enter your own Twitter Developer credentials below in quotes.
+#I took out my own credentials since uploading to GitHub.
+
+creds = open('credentials.txt', 'r')
+
+api_key = creds.readline().rstrip('\n')
+api_secret = creds.readline().rstrip('\n')
+access_token_key = creds.readline().rstrip('\n')
+access_token_secret = creds.readline().rstrip('\n')
+
+########
 
 _debug = 0
 

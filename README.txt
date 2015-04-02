@@ -7,7 +7,7 @@ March 9 2015
 						   
 						   
 This Project was taken from Bill Howe from University of Washington and was
-assigned in our Big Data Class at Eastern University tought by William Sverdlik.
+assigned in our Big Data Class at Eastern University taught by William Sverdlik.
 
 
 *** Problem 1 ***

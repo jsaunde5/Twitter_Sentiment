@@ -1,0 +1,38 @@
+This is a sample run of timer.py for just under two hours. I notice that
+the average stays near 0.0. This is because many tweet sentiments are
+equal to zero. There are many reasons why a tweet sentiment could be zero, 
+but the majority of tweets with a sentiment of zero is because the tweet
+contains no words in the sentiment library. For further analysis, I would 
+consider implementing a method that throws out tweets that have a sentiment
+value of zero for this reason; I believe we would be able to see changes on
+a larger scale and would be more helpful on noticing trends over a longer 
+period of time.
+
+command used to run this result:    $ python timer.py > overnight.txt
+after two hours I performed a KeyboardInterrupt
+
+
+Time: 2015-03-08 22:22:13.443510   Average Sentiment: 0.09
+Time: 2015-03-08 22:27:12.837218   Average Sentiment: 0.17
+Time: 2015-03-08 22:32:11.431459   Average Sentiment: -0.04
+Time: 2015-03-08 22:37:11.396214   Average Sentiment: 0.36
+Time: 2015-03-08 22:42:11.568691   Average Sentiment: 0.21
+Time: 2015-03-08 22:47:11.274671   Average Sentiment: -0.12
+Time: 2015-03-08 22:52:11.419304   Average Sentiment: 0.3
+Time: 2015-03-08 22:57:13.411295   Average Sentiment: 0.64
+Time: 2015-03-08 23:02:11.560374   Average Sentiment: 0.27
+Time: 2015-03-08 23:07:11.604996   Average Sentiment: 0.31
+Time: 2015-03-08 23:12:10.577537   Average Sentiment: 0.41
+Time: 2015-03-08 23:17:10.573308   Average Sentiment: 0.81
+Time: 2015-03-08 23:22:10.531332   Average Sentiment: 0.02
+Time: 2015-03-08 23:27:10.493935   Average Sentiment: 0.2
+Time: 2015-03-08 23:32:10.499972   Average Sentiment: -0.04
+Time: 2015-03-08 23:37:08.518595   Average Sentiment: 0.2
+Time: 2015-03-08 23:42:09.991219   Average Sentiment: 0.1
+Time: 2015-03-08 23:47:08.766988   Average Sentiment: 0.36
+Time: 2015-03-08 23:52:04.601703   Average Sentiment: 0.34
+Time: 2015-03-08 23:57:07.422631   Average Sentiment: 0.25
+Time: 2015-03-09 00:02:08.571070   Average Sentiment: 0.57
+Time: 2015-03-09 00:07:09.422471   Average Sentiment: 0.6
+Time: 2015-03-09 00:12:11.595491   Average Sentiment: 0.69
+Time: 2015-03-09 00:17:12.591753   Average Sentiment: 0.62

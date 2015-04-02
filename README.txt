@@ -34,6 +34,10 @@ The second argument should be output from twitterstream.py
 		
 *** Problem 3 (extra credit) ***
 
+YOU NEED YOUR OWN TWITTER DEVELOPER CREDENTIALS TO RUN THIS
+PROGRAM. I TOOK MY CREDENTIALS OUT OF SCRIPT3.PY FOR
+CONFIDENTIALITY WHEN PUSHED TO GITHUB	
+
 To run the program use the following command:
 $ python timer.py
 
@@ -46,5 +50,4 @@ NOTE: No need to put any parameters; I hard-coded AFINN-111.txt
 into script3.py and the program then gets a stream and executes
 the proper functions to calculate the average sentiment of 100 tweets
 in English ONLY. 
-
 

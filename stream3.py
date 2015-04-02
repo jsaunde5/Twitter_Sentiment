@@ -1,5 +1,8 @@
 #Jordan Saunders          ***  EXTRA CREDIT  ***
 
+#SINCE UPLOADING ON GITHUB I TOOK OUT MY TWITTER DEVELOPER CREDENTIALS.
+#YOU NEED YOUR OWN CREDENTIALS TO RUN THE PROGRAM.
+
 #This program is intended to work on a timer from timer.py
 #This program is a combination of twitterstream.py and
 #tweet_sentiment with alterations to both files

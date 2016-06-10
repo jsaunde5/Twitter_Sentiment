@@ -19,7 +19,7 @@ Open problem_1_submission.txt
 
 *** Problem 2 ***
 
-To run the program use the following command:
+To run the program use the following command (.py):
 $ python tweet_sentiment.py AFINN-111.txt output.txt
 
 The first argument should be the sentiment file
